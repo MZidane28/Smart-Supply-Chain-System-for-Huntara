@@ -1,11 +1,11 @@
 
-# 🏗️ Smart Supply Chain System for Huntara
+# Smart Supply Chain System for Huntara
 
 > Dashboard B2B manajemen rantai pasok cerdas untuk proyek konstruksi **Huntara** (Hunian Sementara) — mengintegrasikan pemetaan GIS real-time, survei UAV, verifikasi blockchain, dan optimasi rute berbasis AI.
 
 ---
 
-## 📌 Tentang Proyek
+## Tentang Proyek
 
 Sistem ini dirancang untuk mendukung koordinasi logistik material bangunan pasca-bencana secara efisien. Mulai dari pemantauan material di lapangan menggunakan drone, verifikasi stok via blockchain, hingga optimasi rute pengiriman dengan AI — semua tersaji dalam satu dashboard terpadu.
 
@@ -13,9 +13,9 @@ Proyek ini dibuat untuk **Lomba Inovasi Teknologi Universitas Diponegoro (UNDIP)
 
 ---
 
-## ✨ Fitur Utama
+## Fitur Utama
 
-### 🗺️ Logistik & Pemetaan GIS
+### Logistik & Pemetaan GIS
 - **Peta interaktif** berbasis Leaflet dengan tile OpenStreetMap
 - **Simulasi Scan UAV** — drone memetakan rute & material spot secara otomatis
 - **Real-world routing** menggunakan OSRM API (jalan nyata, bukan garis lurus)
@@ -23,22 +23,22 @@ Proyek ini dibuat untuk **Lomba Inovasi Teknologi Universitas Diponegoro (UNDIP)
 - **Rute alternatif otomatis** untuk jalur yang terblokir (ditampilkan sebagai garis ungu)
 - Pilih titik awal & tujuan rute logistik secara bebas
 
-### 📦 Inventaris Blockchain
+### Inventaris Blockchain
 - Pencatatan stok material berbasis teknologi blockchain
 - Tabel transaksi dengan hash verifikasi
 - Status immutable untuk setiap perubahan inventaris
 
-### 🤖 Optimasi AI
+### Optimasi AI
 - Rekomendasi rute logistik terbaik berdasarkan kondisi lapangan
 - Analitik prediktif kebutuhan material
 
-### 🏢 Konstruksi & BIM
+### Konstruksi & BIM
 - Integrasi viewer model BIM (Building Information Modeling)
 - Pemantauan progres konstruksi Huntara secara visual
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 | Kategori | Teknologi |
 |---|---|
@@ -53,7 +53,7 @@ Proyek ini dibuat untuk **Lomba Inovasi Teknologi Universitas Diponegoro (UNDIP)
 
 ---
 
-## 🚀 Menjalankan Secara Lokal
+## Menjalankan Secara Lokal
 
 ```bash
 # 1. Clone repo
@@ -71,7 +71,7 @@ Buka [http://localhost:5173](http://localhost:5173) di browser.
 
 ---
 
-## 📦 Build untuk Production
+## Build untuk Production
 
 ```bash
 npm run build
@@ -81,7 +81,7 @@ Output akan tersimpan di folder `dist/`.
 
 ---
 
-## 🗂️ Struktur Proyek
+## Struktur Proyek
 
 ```
 src/
@@ -99,13 +99,13 @@ src/
 
 ---
 
-## 🌐 Catatan API
+## Catatan API
 
 Proyek ini menggunakan **OSRM Public API** (`router.project-osrm.org`) untuk kalkulasi rute jalan nyata. API ini bersifat publik dan tidak memerlukan API key — berfungsi langsung di browser tanpa backend tambahan.
 
 ---
 
-## 👤 Author
+## Author
 
 **Muhammad Zidane Septian Irsyadi**
 Universitas Diponegoro — Lomba Dashboard Inovasi 2026
